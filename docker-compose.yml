@@ -6,6 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: car-hub
+    platform: linux/amd64
     ports:
       - "3000:3000"
     volumes:
